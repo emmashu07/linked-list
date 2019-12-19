@@ -23,6 +23,8 @@ int main() {
 	cout << "Third node: ";
 	head -> getNext() -> getNext() -> getStudent() -> print(); //Tests if the nodes are linked correctly by calling to getNext() twice.
 
+	delete head -> getNext() -> getNext();
+	delete head -> getNext();
 	delete head;
 
 	return 0;
