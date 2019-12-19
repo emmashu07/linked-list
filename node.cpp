@@ -13,9 +13,6 @@ Node::~Node() { //Makes sure that the destructor does not delete a NULL.
 	if (student) {
 		delete student;
 	}
-	if (next) {
-		delete next;
-	}
 }
 
 void Node::setNext(Node* next) {
